@@ -1,0 +1,191 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/image/background.jpg);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.boo{
+    background-image:linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/image/background.jpg);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+header{
+    width: 100vw;
+    height: 15vh;
+}
+header img{
+    margin-left: 150px;
+    width: 200px;
+    height: 170px;
+}
+form{
+    height: 650px;
+    width: 500px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    border: none;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+h2{
+    font-size: 30px;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+input[type="text"], input[type="password"]{
+    width: 360px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 6px auto;
+
+    display: flex;
+    color: #fff;
+    background-color: #0000006c;
+}
+::placeholder{
+    margin: auto;
+}
+button{
+    width: 360px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 70px;
+    background-color: #E50914;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+.or{
+    font-size: 15px;
+    color: grey;
+    margin: 30px 0 0 235px;
+}
+.sign-in{
+    width: 360px;
+    height: 50px;
+    color: #fff;
+    background-color: rgba(128, 128, 128, 0.404);
+}
+.forget{
+    display: flex;
+    justify-content: center;
+}
+.forget label a{
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+
+}
+.forget  label a:hover{
+    text-decoration: underline;
+}
+.checkbox {
+    display: flex;
+    gap: 6px;
+    color: #fff;
+    margin-left: 90px;
+    font-size: 18px;
+    align-items: center;
+}
+.checkbox input{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background: transparent;
+    border: 1px solid grey;
+}
+.new{
+    display: flex;
+    gap: 4px;
+    margin-top: 20px;
+    margin-left: 90px; 
+    align-items: center;
+}
+.new p{
+    font-size: 18px;
+    color: #B7B9BA;
+}
+
+.new a{
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+}
+.new a:hover{
+    text-decoration: underline;
+}
+.protect{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.protect p{
+    color: grey;
+}
+.protect a{
+    color: blue;
+    text-decoration: none;
+}
+.protect a:hover{
+    text-decoration: underline;
+}
+footer{
+    padding-top: 350px;
+    background-color: #000;
+    height: 600px;
+}
+.question{
+    margin-bottom: 20px
+}
+.question a{
+    margin-left: 150px;
+    color: #B3B3B3;
+    font-size: 17px;
+    text-decoration: none;
+}
+.question a:hover{
+    text-decoration: underline;
+}
+.faq{
+    margin-bottom: 20px;
+}
+.faq a{
+    padding-left: 200px;
+    color: #B3B3B3;
+    font-size: 17px;
+}
+.cookie{
+    margin-bottom: 20px;
+}
+.cookie a{
+    margin-left: 150px;
+    color: #B3B3B3;
+    font-size: 17px;
+}
+.engg button{
+    margin-left: 150px;
+    background-color: transparent;
+    border: 1px solid grey;
+    width: 100px;
+    margin-bottom: 20px;
+}
